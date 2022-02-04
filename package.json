@@ -4,7 +4,7 @@
   "description": "It's s Demo Extension",
   "main": "popup.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,10 @@
     "react-router-dom": "^6.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
     "webpack": "^5.68.0",
     "webpack-cli": "^4.9.2"
   }
