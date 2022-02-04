@@ -2,12 +2,12 @@
   "name": "demo_extension",
   "version": "1.0.0",
   "description": "It's s Demo Extension",
-  "main": "popup.js",
+  "main": "popup.jsx",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gm-shuvo",
   "license": "ISC",
   "dependencies": {
     "react": "^17.0.2",
@@ -19,6 +19,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.2.4",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.68.0",
     "webpack-cli": "^4.9.2"
